@@ -1,0 +1,79 @@
+'SHOES
+<{snowboots} --> shoe>. %1.00;1.00%
+<{snowboots} --> [warm]>. %0.8;0.9%
+<{snowboots} --> [fashionable]>. %0.1;0.1%
+<{snowboots} --> [liked]>. %0.25;0.9%
+
+<{combatboots} --> shoe>. %1.00;1.00%
+<{combatboots} --> [warm]>. %0.5;0.9%
+<{combatboots} --> [fashionable]>. %0.75;0.9%
+<{combatboots} --> [liked]>. %0.75;0.9%
+
+<{sneakers} --> shoe>. %1.00;1.00%
+<{sneakers} --> [warm]>. %0.25;0.9%
+<{sneakers} --> [fashionable]>. %0.5;0.9%
+<{sneakers} --> [liked]>. %0.8;0.9%
+
+<{heels} --> shoe>. %1.00;1.00%
+<{heels} --> [warm]>. %0.1;0.9%
+<{heels} --> [fashionable]>. %0.9;0.9%
+<{heels} --> [liked]>. %0.25;0.9%
+
+'BOTTOMS
+<{sweatpants} --> bottom>. %1.00;1.00%
+<{sweatpants} --> [warm]>. %0.75;0.9%
+<{sweatpants} --> [fashionable]>. %0.2;0.9%
+<{sweatpants} --> [liked]>. %0.75;0.9%
+
+<{jeans} --> bottom>. %1.00;1.00%
+<{jeans} --> [warm]>. %0.75;0.9%
+<{jeans} --> [fashionable]>. %0.75;0.9%
+<{jeans} --> [liked]>. %0.9;0.9%
+
+<{slacks} --> bottom>. %1.00;1.00%
+<{slacks} --> [warm]>. %0.5;0.9%
+<{slacks} --> [fashionable]>. %0.75;0.9%
+<{slacks} --> [liked]>. %0.25;0.9%
+
+<{gymshorts} --> bottom>. %1.00;1.00%
+<{gymshorts} --> [warm]>. %0.1;0.9%
+<{gymshorts} --> [fashionable]>. %0.25;0.9%
+<{gymshorts} --> [liked]>. %0.5;0.9%
+
+'TOPS
+<{longsleeveshirt} --> top>. %1.00;1.00%
+<{longsleeveshirt} --> [warm]>. %0.75;0.9%
+<{longsleeveshirt} --> [fashionable]>. %0.5;0.9%
+<{longsleeveshirt} --> [liked]>. %0.75;0.9%
+
+<{shortsleeveshirt} --> top]>. %1.00;1.00%
+<{shortsleeveshirt} --> [warm]>. %0.25;0.9%
+<{shortsleeveshirt} --> [fashionable]>. %0.5;0.9%
+<{shortsleeveshirt} --> [liked]>. %0.75;0.9%
+
+<{sweatshirt} --> top>. %1.00;1.00%
+<{sweatshirt} --> [warm]>. %0.75;0.9%
+<{sweatshirt} --> [fashionable]>. %0.25;0.9%
+<{sweatshirt} --> [liked]>. %0.75;0.9%
+
+<{tanktop} --> top>. %1.00;1.00%
+<{tanktop} --> [warm]>. %0.1;0.9%
+<{tanktop} --> [fashionable]>. %0.25;0.9%
+<{tanktop} --> [liked]>. %0.25;0.9%
+
+'ACCESSORIES
+<{sunglasses} --> accessory>. %1;1%
+<{sunglasses} --> [high-uv]>. %0.8;.9%
+<{sunglasses} --> [fashionable]>. %0.6; .9%
+
+<{coat} --> accessory>. %1;1%
+<{coat} --> [warm]>. %1;.9%
+
+'QUESTIONS
+<?x --> (&, [fashionable], shoe)>?
+
+<?x --> (&, [fashionable], bottom)>?
+
+<?x --> (&, [fashinable], top)>?
+
+<?x --> (&, [fashionable], accessory)>?
